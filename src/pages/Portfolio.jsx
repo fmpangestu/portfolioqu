@@ -12,7 +12,7 @@ export default function Portfolio() {
                     <div className="w-full p-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/public/img/portfolio/1.png" alt="jokes-random" width={'w-full'}
+                                <img src="/dist/img/portfolio/1.png" alt="jokes-random" width={'w-full'}
                                      title={'jokes-random'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary transition duration-500 hover:text-primary'}><a href="https://jokes-random-v1.netlify.app/" target={"_blank"} title={'visit project'} rel="noreferrer" >JoRan (jokes random)</a></h3>
@@ -21,7 +21,7 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/public/img/portfolio/2.png" alt="jokes-random" width={'w-full'}
+                                <img src="/dist/img/portfolio/2.png" alt="jokes-random" width={'w-full'}
                                      title={'jokes-random'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}><a href="https://todo-apps-v1.netlify.app/" target={"_blank"} title={'visit project'} rel="noreferrer">Todo Apps</a></h3>
@@ -29,7 +29,7 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/public/img/portfolio/3.png" alt="jokes-random" width={'w-full'}
+                                <img src="/dist/img/portfolio/3.png" alt="jokes-random" width={'w-full'}
                                      title={'jokes-random'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}><a
@@ -40,7 +40,7 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/public/img/portfolio/4.png" alt="jokes-random" width={'w-full'}
+                                <img src="/dist/img/portfolio/4.png" alt="jokes-random" width={'w-full'}
                                      title={'jokes-random'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}><a href="https://wisataid.vercel.app/" target={"_blank"} title={'visit project'} rel="noreferrer">WisataID</a></h3>

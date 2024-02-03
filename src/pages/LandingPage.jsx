@@ -18,7 +18,7 @@ export default function LandingPage() {
                     </div>
                     <div className={'w-full self-end px-4 lg:w-1/2'}>
                         <div className={'relative mt-10 lg:mt-0 lg:right-0'}>
-                            <img src="public/img/11.png" alt="" className={'max-w-full mx-auto brightness-110 object-cover'}/>
+                            <img src="/dist/img/11.png" alt="" className={'max-w-full mx-auto brightness-110 object-cover'}/>
                             <span className={'absolute -bottom-5 -z-10 left-1/2 -translate-x-1/2 lg:scale-125'}>
                                     <svg width={'400'} height={'400'} viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                         <path fill="#08BDBA"

@@ -12,7 +12,7 @@ export default function Certificate() {
                     <div className="flex flex-wrap">
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                                <img src="/public/img/sertificate/1.png" alt="sertifikat" className={'w-full'}/>
+                                <img src="/dist/img/sertificate/1.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6">
                                     <h3 className={'font-semibold text-xl text-dark mb-3 truncate'}
                                         title={'Front end Web Development Expert'}>Front-end Web Development Expert</h3>
@@ -27,7 +27,7 @@ export default function Certificate() {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                                <img src="/public/img/sertificate/6.png" alt="sertifikat" className={'w-full'}/>
+                                <img src="/dist/img/sertificate/6.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6">
                                     <h3 className={'font-semibold text-xl text-dark mb-3 truncate'}
                                         title={'Prinsip Dasar Pemrograman SOLID'}>Prinsip Dasar Pemrograman SOLID</h3>
@@ -42,7 +42,7 @@ export default function Certificate() {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                                <img src="/public/img/sertificate/3.png" alt="sertifikat" className={'w-full'}/>
+                                <img src="/dist/img/sertificate/3.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6">
                                     <h3 className={'font-semibold text-xl text-dark mb-3 truncate'}
                                         title={'Fundamental Front end Web'}>Fundamental Front-end Web</h3>
@@ -57,7 +57,7 @@ export default function Certificate() {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                                <img src="/public/img/sertificate/4.png" alt="sertifikat" className={'w-full'}/>
+                                <img src="/dist/img/sertificate/4.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6">
                                     <h3 className={'font-semibold text-xl text-dark mb-3 truncate'}
                                         title={'Dasar Javascript'}>JavaScript Dasar</h3>
@@ -72,7 +72,7 @@ export default function Certificate() {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                                <img src="/public/img/sertificate/7.png" alt="sertifikat" className={'w-full'}/>
+                                <img src="/dist/img/sertificate/7.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6">
                                     <h3 className={'font-semibold text-xl text-dark mb-3 truncate'}
                                         title={'Aplikasi Back End Pemula'}>Applications Back-end Pemula</h3>
