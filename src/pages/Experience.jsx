@@ -1,14 +1,14 @@
 export default function Experience() {
     return (
-        <section id={'experience'} className={'pt-36 pb-32 bg-slate-800 w-full'}>
+        <section id={'experience'} className={'pt-36 pb-32 bg-slate-800 w-full dark:bg-slate-300'}>
             <div className="container">
                 <div className="w-full px-4">
                     <div className="=mx-auto text-center mb-16">
                         <h4 className={'text-lg text-primary font-semibold mb-2 uppercase'}>Experience</h4>
-                        <h2 className="font-bold text-slate-50 text-3xl mb-4 sm:text-4xl lg:text-5xl">Pengalaman
+                        <h2 className="font-bold text-slate-50 text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Pengalaman
                             saya </h2>
                         <p className="text-md font-medium text-secondary md:text-lg">Sebuah pengalaman, pelatihan yang
-                            pernah saya ikuti sampai saat ini menjadi <span className={'text-slate-50'}>Junior Web Developer</span>
+                            pernah saya ikuti sampai saat ini menjadi <span className={'text-slate-50 dark:text-dark dark:font-bold'}>Junior Web Developer</span>
                         </p>
                     </div>
                     <div className="w-full px-4">

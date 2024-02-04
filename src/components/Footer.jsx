@@ -13,13 +13,13 @@ export default function Footer() {
                         <h3 className={'font-semibold text-white text-xl mb-5'}>Project Category</h3>
                         <ul className="text-slate-300">
                             <li className="mb-2">
-                                <a href="#" className="inline-block text-base hover:text-primary">Nusantara</a>
+                                <a href="" className="inline-block text-base hover:text-primary">Nusantara</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#" className="inline-block text-base hover:text-primary">Logic React </a>
+                                <a href="" className="inline-block text-base hover:text-primary">Logic React </a>
                             </li>
                             <li className="mb-2">
-                                <a href="#" className="inline-block text-base hover:text-primary">React Learn</a>
+                                <a href="" className="inline-block text-base hover:text-primary">React Learn</a>
                             </li>
                         </ul>
                     </div>

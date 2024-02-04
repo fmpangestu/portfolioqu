@@ -1,18 +1,18 @@
 export default function AboutPage() {
     return (
-        <section id={'about'} className={'pt-52 pb-32'}>
+        <section id={'about'} className={'pt-52 pb-32 dark:bg-dark'}>
             <div className={'container'}>
                 <div className="flex flex-wrap">
                     <div className="w-full px-4 mb-10 lg:w-1/2">
                         <h1 className={'font-bold uppercase text-primary text-lg mb-3'}>Tentang Saya</h1>
-                        <h2 className={'font-bold text-dark text-3xl mb-5 max-w-md'}>Semua Hal itu Menarik, Tergantung
+                        <h2 className={'font-bold text-dark text-3xl mb-5 max-w-md dark:text-white'}>Semua Hal itu Menarik, Tergantung
                             diri Kita</h2>
                         <p className={'font-medium text-base text-secondary  lg:text-lg'}>Semangat Kawan dan percayalah
                             dengan proses itu sendiri</p>
                     </div>
 
                     <div className="w-full px-4 mb-10 lg:w-1/2">
-                        <h3 className={'font-bold text-dark text-2xl mb-3 lg:text-3xl lg:pt-10'}>Mari Berkawan</h3>
+                        <h3 className={'font-bold text-dark text-2xl mb-3 lg:text-3xl lg:pt-10 dark:text-white'}>Mari Berkawan</h3>
                         <p className={'font-medium text-base text-secondary  mb-6 lg:text-lg'}>Follow Saya untuk Menambah
                             relasi dan juga bisa untuk saling sharing <span
                                 className={'text-dark font-semibold'}>Ilmu</span></p>

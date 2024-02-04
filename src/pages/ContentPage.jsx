@@ -6,6 +6,7 @@ import Experience from "./Experience.jsx";
 import Sertificate from "./Sertificate.jsx";
 import Contacts from "./Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import Totop from "../components/Totop.jsx";
 
 export default function ContentPage() {
     return (
@@ -18,6 +19,7 @@ export default function ContentPage() {
             <Sertificate/>
             <Contacts/>
             <Footer/>
+            <Totop/>
         </>
     )
 }

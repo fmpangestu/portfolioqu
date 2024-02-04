@@ -6,12 +6,12 @@ body {
     font-family: 'Inter', sans-serif;
 }
 .navbar-fixed {
-    @apply fixed z-[9999] bg-white bg-opacity-70;
+    @apply fixed z-[9999] bg-white bg-opacity-70 dark:bg-dark dark:bg-opacity-50;
     backdrop-filter: blur(5px);
     box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 .navbar-list {
-    @apply text-base py-2 mx-8 flex text-dark;
+    @apply text-base py-2 mx-8 flex text-dark dark:text-white;
 }
 .hamburger-line {
     margin-top: 8px;
@@ -19,6 +19,7 @@ body {
     height: 2px;
     display: block;
     background-color: black;
+    @apply dark:bg-white;
 }
 
 .hamburger-active > span:nth-child(1) {
@@ -32,4 +33,8 @@ body {
 
 .hamburger-active > span:nth-child(3) {
     @apply -rotate-[45deg] ;
+}
+
+#dark-toggle:checked ~ label div .toggle-circle {
+    @apply translate-x-4;
 }
