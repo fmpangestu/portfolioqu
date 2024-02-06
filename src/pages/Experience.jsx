@@ -14,17 +14,17 @@ export default function Experience() {
                     <div className="w-full px-4">
                         <div className="flex flex-wrap justify-center items-center">
                             <a href="https://www.dicoding.com/" target={'_blank'}
-                               className={'max-w-[120px] mx-4 py-4 md:grayscale md:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                               className={'max-w-[120px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                rel="noreferrer">
                                 <img src="/img/experience/dicoding1.jpeg" alt="dicoding"/>
                             </a>
                             <a href="https://idcamp.ioh.co.id/" target={'_blank'}
-                               className={'max-w-[120px] mx-4 py-4 md:grayscale md:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                               className={'max-w-[120px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                rel="noreferrer">
                                 <img src="/img/experience/idcamp.png" alt="dicoding"/>
                             </a>
                             <a href="https://kampusmerdeka.kemdikbud.go.id/" target={'_blank'}
-                               className={'max-w-[120px] mx-4 py-4 md:grayscale md:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                               className={'max-w-[120px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                rel="noreferrer">
                                 <img src="/img/experience/kampusmerdeka.png" alt="dicoding"/>
                             </a>
