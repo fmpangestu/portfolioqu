@@ -120,6 +120,9 @@ export default function Header() {
                                         </div>
                                     </label>
                                 </li>
+                                <li className={'mt-3 lg:mt-0 items-center flex '}>
+                                    <a href='/resume.pdf' target={'_blank'} rel='noreferrer' className={' px-4 py-1 ml-4 rounded-full border border-dark dark:border-white dark:text-white font-base text-sm hidden lg:block'}>Resume</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
