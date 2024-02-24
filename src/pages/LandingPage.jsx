@@ -16,7 +16,7 @@ export default function LandingPage() {
                            className={'text-base font-semibold text-white py-3 px-8 bg-primary hover:opacity-75 rounded-full transition duration-300 ease-in-out'}>Contact
                             Me</a>
                         <a href="/resume.pdf" target={'_blank'} rel="noreferrer"
-                           className={'text-base font-semibold text-white ml-4 py-3 px-8 border border-dark dark:border-white rounded-full lg:hidden'}>
+                           className={'text-base font-semibold text-dark ml-4 py-3 px-8 border dark:text-white border-dark dark:border-white rounded-full lg:hidden'}>
                             Resume
                         </a>
 
