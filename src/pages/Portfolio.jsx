@@ -57,6 +57,16 @@ export default function Portfolio() {
                             <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project team dengan
                                 react,express.js, yang sangat kompleks</p>
                         </div>
+                        <div className="mb-12 p-4 md:w-1/2">
+                            <div className="rounded-md shadow-md overflow-hidden">
+                                <img src="/img/portfolio/5.png" alt="Yok ngopi" width={'w-full'}
+                                     title={'jokes-random'}/>
+                            </div>
+                            <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}>
+                                <a href="https://yokngopicuy.netlify.app/#/list-restaurant" target={"_blank"} title={'visit project'}
+                                   rel="noreferrer" className={'dark:text-white dark:hover:text-dark transition duration-300'}>Yok Ngopi</a></h3>
+                            <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project latihan yang menggunakan vanila language,html css javascript</p>
+                        </div>
                     </div>
                 </div>
             </div>
