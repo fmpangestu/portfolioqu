@@ -66,10 +66,13 @@ export default function Header() {
     return (
         <header
             className={`bg-transparent absolute top-0 left-0 w-full items-center flex z-10 ${isScrolled ? 'navbar-fixed' : ''} `}>
-            <div className="container">
+            <div className="container my-[-8px] ">
                 <div className="flex justify-between items-center relative">
                     <div className={'px-4'}>
-                        <a href="#" className={'text-primary font-bold text-2xl block py-6'}>farhn<span
+                        <a href="/" onClick={(e) => {
+                            e.preventDefault();
+                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                        }}  className={'text-primary font-bold text-2xl block py-6'}>farhn<span
                             className={'text-secondary dark:text-white'}>Dev</span></a>
                     </div>
                     <div className="flex items-center px-4">

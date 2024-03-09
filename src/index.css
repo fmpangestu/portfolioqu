@@ -16,14 +16,24 @@ body {
 .hamburger-line {
     margin-top: 8px;
     width: 30px;
-    height: 2px;
+    height: 4px;
+    border-radius: 10px;
     display: block;
     background-color: black;
     @apply dark:bg-white;
+
+}
+.hamburger-line:nth-child(1) {
+    width: 15px;
+
+}
+.hamburger-line:nth-child(3){
+    width: 25px;
+
 }
 
 .hamburger-active > span:nth-child(1) {
-    @apply rotate-[45deg] ;
+    @apply rotate-[45deg] w-9 ;
 }
 
 .hamburger-active > span:nth-child(2) {
@@ -32,7 +42,11 @@ body {
 }
 
 .hamburger-active > span:nth-child(3) {
-    @apply -rotate-[45deg] ;
+    @apply -rotate-[45deg] w-9 ;
+}
+.carousel-image {
+    width: 120px;
+    height: auto;
 }
 
 #dark-toggle:checked ~ label div .toggle-circle {
