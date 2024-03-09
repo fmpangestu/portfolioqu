@@ -24,8 +24,8 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/img/portfolio/2.png" alt="jokes-random" width={'w-full'}
-                                     title={'jokes-random'}/>
+                                <img src="/img/portfolio/2.png" alt="todo apps" width={'w-full'}
+                                     title={'todo apps'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}>
                                 <a href="https://todo-apps-v1.netlify.app/" target={"_blank"} title={'visit project'}
@@ -35,8 +35,8 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2 ">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/img/portfolio/3.png" alt="jokes-random" width={'w-full'}
-                                     title={'jokes-random'}/>
+                                <img src="/img/portfolio/3.png" alt="notes app" width={'w-full'}
+                                     title={'notes app'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}>
                                 <a
@@ -48,8 +48,8 @@ export default function Portfolio() {
                         </div>
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
-                                <img src="/img/portfolio/4.png" alt="jokes-random" width={'w-full'}
-                                     title={'jokes-random'}/>
+                                <img src="/img/portfolio/4.png" alt="wisata id" width={'w-full'}
+                                     title={'Wisata ID'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}>
                                 <a href="https://wisataid.vercel.app/" target={"_blank"} title={'visit project'}
@@ -60,7 +60,7 @@ export default function Portfolio() {
                         <div className="mb-12 p-4 md:w-1/2">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/5.png" alt="Yok ngopi" width={'w-full'}
-                                     title={'jokes-random'}/>
+                                     title={'Yok ngopi'}/>
                             </div>
                             <h3 className={'font-semibold text-xl text-dark mb-3 mt-5 transition duration-500 hover:text-primary'}>
                                 <a href="https://yokngopicuy.netlify.app/#/list-restaurant" target={"_blank"} title={'visit project'}
