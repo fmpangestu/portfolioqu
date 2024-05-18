@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
 }
 .navbar-fixed {
     @apply fixed z-[9999] bg-white bg-opacity-70 dark:bg-dark dark:bg-opacity-50;
@@ -51,4 +52,15 @@ body {
 
 #dark-toggle:checked ~ label div .toggle-circle {
     @apply translate-x-4;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }

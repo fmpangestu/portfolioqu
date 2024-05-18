@@ -10,7 +10,7 @@ export default function Certificate() {
                             peroleh, selama Study</p>
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/1.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -25,7 +25,7 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/6.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -40,7 +40,7 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/3.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -55,7 +55,7 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/4.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -70,7 +70,7 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/7.png" alt="sertifikat" className={'w-full'}/>
                                 <div className="py-8 px-6 dark:bg-slate-800">

@@ -16,6 +16,9 @@ export default {
                 secondary: '#64748b',
                 dark: '#0f172a'
             },
+            gridTemplateColumns: {
+                'auto-1fr': 'auto 1fr',
+              },
             screens: {
                 '2xl': '1320px'
             }

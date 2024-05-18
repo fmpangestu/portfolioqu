@@ -11,7 +11,7 @@ export default function Portfolio() {
                             kembangkan</p>
                     </div>
                     <div className="w-full p-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto ">
-                        <div className="mb-12 p-4 md:w-1/2">
+                        <div className="mb-12 p-4 md:w-1/3">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/1.png" alt="jokes-random" width={'w-full'}
                                      title={'jokes-random'}/>
@@ -22,7 +22,7 @@ export default function Portfolio() {
                             <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project latihan untuk mengasah
                                 logika react js</p>
                         </div>
-                        <div className="mb-12 p-4 md:w-1/2">
+                        <div className="mb-12 p-4 md:w-1/3">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/2.png" alt="todo apps" width={'w-full'}
                                      title={'todo apps'}/>
@@ -33,7 +33,7 @@ export default function Portfolio() {
                             <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project latihan react, dengan
                                 logic todo</p>
                         </div>
-                        <div className="mb-12 p-4 md:w-1/2 ">
+                        <div className="mb-12 p-4 md:w-1/3 ">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/3.png" alt="notes app" width={'w-full'}
                                      title={'notes app'}/>
@@ -46,7 +46,7 @@ export default function Portfolio() {
                             <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project latihan dengan logic
                                 react</p>
                         </div>
-                        <div className="mb-12 p-4 md:w-1/2">
+                        <div className="mb-12 p-4 md:w-1/3">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/4.png" alt="wisata id" width={'w-full'}
                                      title={'Wisata ID'}/>
@@ -57,7 +57,7 @@ export default function Portfolio() {
                             <p className={'font-medium text-base text-secondary dark:text-slate-400'}>Sebuah project team dengan
                                 react,express.js, yang sangat kompleks</p>
                         </div>
-                        <div className="mb-12 p-4 md:w-1/2">
+                        <div className="mb-12 p-4 md:w-1/3">
                             <div className="rounded-md shadow-md overflow-hidden">
                                 <img src="/img/portfolio/5.png" alt="Yok ngopi" width={'w-full'}
                                      title={'Yok ngopi'}/>

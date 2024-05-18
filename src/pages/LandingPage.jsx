@@ -1,6 +1,6 @@
 export default function LandingPage() {
     return (
-        <section className={'pt-48 pb-12 dark:bg-dark'} id={'home'}>
+        <section className={'pt-24 lg:pt-48 pb-12 dark:bg-dark'} id={'home'}>
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full self-center px-4 lg:w-1/2">
@@ -11,7 +11,7 @@ export default function LandingPage() {
                             className={'text-dark dark:text-white'}>Developer</span></h2>
                         <p className={'font-medium text-secondary mb-10 leading-relaxed'}>Terkadang merasa lelah itu
                             wajar, tetapi ingat kata menyerah itu <span
-                                className={'text-dark font-bold dark:text-white'}>Kurang AJ4R!</span></p>
+                                className={'text-dark font-bold dark:text-white'}>Kurang BELAJAR!</span></p>
                         <a href="#contact"
                            className={'text-base font-semibold text-white py-3 px-8 bg-primary hover:opacity-75 rounded-full transition duration-300 ease-in-out'}>Contact
                             Me</a>
