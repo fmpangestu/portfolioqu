@@ -4,7 +4,7 @@ export default function LandingPage() {
             <div className="container">
                 <div className="flex flex-wrap">
                     <div className="w-full self-center px-4 lg:w-1/2">
-                        <h1 className={'text-base font-semibold text-primary md:text-xl '}>Hai Apa Kabar 💕saya <span
+                        <h1 className={'text-base font-semibold text-primary md:text-xl '}>Hai Apa Kabar 👋 saya <span
                             className={'block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white'}>Farhan Maulana Pangestu</span>
                         </h1>
                         <h2 className={'font-medium text-lg mb-5 text-secondary lg:text-2xl'}>Junior Web <span
