@@ -7,7 +7,7 @@ export default function Experience() {
             <div className="container">
                 <div className="w-full px-4">
                     <div className="=mx-auto text-center mb-20">
-                        <h4 className={'text-lg dark:text-black text-white text-primary font-semibold mb-2 uppercase'}>Experience</h4>
+                        <h4 className={'text-lg dark:text-black text-white text-primary font-semibold mb-2 uppercase'}>Pengalaman</h4>
                         <h2 className="font-bold text-slate-50 text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Pengalaman
                             dan Skills </h2>
                         <p className="text-md font-medium text-secondary md:text-lg dark:text-black text-white">Sebuah pengalaman pelatihan yang
@@ -62,7 +62,7 @@ export default function Experience() {
                                         <img src="/img/experience/kampusmerdeka.png" alt="dicoding" />
                                     </a>
                                     <p className="text-lg dark:text-black text-white">
-                                    <span className='font-bold'>Kampus Merdeka</span> adalah platform yang memberikan inovasi yang dibuat oleh Kemendikbudristek agar dapat menghasilkan lulusan yang siap menghadapi perubahan sosial, budaya, dunia kerja, dan kemajuan teknologi yang pesat. Program ini sudah diluncurkan oleh Kemendikbudristek sejak akhir Januari 2020.
+                                        <span className='font-bold'>Kampus Merdeka</span> adalah platform yang memberikan inovasi yang dibuat oleh Kemendikbudristek agar dapat menghasilkan lulusan yang siap menghadapi perubahan sosial, budaya, dunia kerja, dan kemajuan teknologi yang pesat. Program ini sudah diluncurkan oleh Kemendikbudristek sejak akhir Januari 2020.
                                     </p>
                                     <p className="text-lg dark:text-black text-white ">
                                         saya sangat berterima kasih sekali dengan adanya program ini, karena memberikan pengalaman yang sangat luar biasa.

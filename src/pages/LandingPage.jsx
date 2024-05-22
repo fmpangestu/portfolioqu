@@ -13,8 +13,8 @@ export default function LandingPage() {
                             wajar, tetapi ingat kata menyerah itu <span
                                 className={'text-dark font-bold dark:text-white'}>Kurang BELAJAR!</span></p>
                         <a href="#contact"
-                           className={'text-base font-semibold text-white py-3 px-8 bg-primary hover:opacity-75 rounded-full transition duration-300 ease-in-out'}>Contact
-                            Me</a>
+                           className={'text-base font-semibold text-white py-3 px-8 bg-primary hover:opacity-75 rounded-full transition duration-300 ease-in-out'}>Hubungi
+                            Saya</a>
                         <a href="/resume.pdf" target={'_blank'} rel="noreferrer"
                            className={'text-base font-semibold text-dark ml-4 py-3 px-8 border dark:text-white border-dark dark:border-white rounded-full lg:hidden'}>
                             Resume

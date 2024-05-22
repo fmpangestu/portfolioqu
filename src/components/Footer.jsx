@@ -37,14 +37,14 @@ export default function Footer() {
                             </li>
                             <li className="mb-2">
                                 <a href="#experience"
-                                   className="inline-block text-base hover:text-primary">Experience</a>
+                                   className="inline-block text-base hover:text-primary">Pengalaman</a>
                             </li>
                             <li className="mb-2">
                                 <a href="#certificate"
-                                   className="inline-block text-base hover:text-primary">Certificate</a>
+                                   className="inline-block text-base hover:text-primary">Sertifikat</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#contact" className="inline-block text-base hover:text-primary">Contact</a>
+                                <a href="#contact" className="inline-block text-base hover:text-primary">Kontak</a>
                             </li>
                         </ul>
                     </div>
