@@ -6,7 +6,11 @@ export default function Experience() {
         <section id={'experience'} className={'pt-36 pb-32 bg-slate-800 w-full dark:bg-slate-300'}>
             <div className="container">
                 <div className="w-full px-4">
-                    <div className="=mx-auto text-center mb-20">
+                    <div className="=mx-auto text-center mb-20"
+                    data-aos="zoom-out"
+                    data-aos-offset="00"
+                    data-aos-duration="500"
+                    >
                         <h4 className={'text-lg dark:text-black text-white text-primary font-semibold mb-2 uppercase'}>Pengalaman</h4>
                         <h2 className="font-bold text-slate-50 text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-dark">Pengalaman
                             dan Skills </h2>
@@ -17,7 +21,10 @@ export default function Experience() {
                     </div>
 
                     <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white">
-                        <div className="pl-24 relative before:w-4 before:h-4 before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]">
+                        <div className="pl-24 relative before:w-4 before:h-4 before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]"
+                        data-aos="zoom-out-right"
+                                                data-aos-offset="00"
+                        data-aos-duration="500">
                             <h3 className="absolute left-0 text-lg dark:text-black text-white font-semibold">2023</h3>
                             <div className="container mx-auto p-4">
                                 <div className="clearfix">
@@ -36,7 +43,10 @@ export default function Experience() {
                                 </div>
                             </div>
                         </div>
-                        <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]">
+                        <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]"
+                        data-aos="zoom-out-right"
+                                                data-aos-offset="00"
+                        data-aos-duration="500">
                             <h3 className="absolute left-0 text-lg dark:text-black text-white font-semibold">2023</h3>
                             <div className="container mx-auto p-4">
                                 <div className="clearfix">
@@ -53,7 +63,10 @@ export default function Experience() {
                                 </div>
                             </div>
                         </div>
-                        <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]">
+                        <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]"
+                        data-aos="zoom-out-right"
+                                                data-aos-offset="00"
+                        data-aos-duration="500">
                             <h3 className="absolute left-0 text-lg dark:text-black text-white font-semibold">2023</h3>
                             <div className="container mx-auto p-4">
                                 <div className="clearfix">
@@ -71,7 +84,10 @@ export default function Experience() {
                             </div>
                         </div>
                     </div>
-                    <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]">
+                    <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-slate-800 before:bg-primary before:absolute before:rounded-full before:left-[58px]"
+                    data-aos="zoom-out-right"
+                                            data-aos-offset="00"
+                        data-aos-duration="500">
                         <h3 className="absolute left-0 text-lg dark:text-black text-white font-semibold">Skill</h3>
                         <div className="grid grid-cols-3 lg:flex lg:flex-wrap justify-center items-center">
                             <a href="https://www.w3schools.com/html/default.asp" target={'_blank'}
@@ -106,10 +122,16 @@ export default function Experience() {
                             </a>
                         </div>
                     </div>
-                    <div className='hidden lg:block  mt-10 py-5 px-48'>
+                    <div className='hidden lg:block  mt-10 py-5 px-48'
+                    data-aos="zoom-in-up"
+                    data-aos-offset="200"
+                    data-aos-duration="500">
                         <GitHubCalendar username="farhnDev" />
                     </div>
-                    <div className="lg:hidden mt-10">
+                    <div className="lg:hidden mt-10"
+                    data-aos="zoom-in-up"
+                    data-aos-offset="200"
+                    data-aos-duration="800">
                         <GitHubCalendar username="farhnDev" />
                     </div>
                 </div>

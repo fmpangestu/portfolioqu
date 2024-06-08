@@ -3,14 +3,20 @@ export default function Certificate() {
         <section id={'certificate'} className={'pt-36 pb-32 bg-slate-100 dark:bg-dark'}>
             <div className="container">
                 <div className="w-full px-4">
-                    <div className="mx-auto text-center mb-16">
+                    <div className="mx-auto text-center mb-16"
+                    data-aos="zoom-in-up"
+                    data-aos-offset="200"
+                    data-aos-duration="500">
                         <h4 className={'text-lg text-primary font-semibold mb-2 uppercase'}>Sertifikat</h4>
                         <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Sertifikat dan License</h2>
                         <p className="text-md font-medium text-secondary md:text-lg dark:text-slate-400">Kumpulan sertifikat yang telah saya
                             peroleh, selama Study</p>
                     </div>
                     <div className="flex flex-wrap">
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4"
+                        data-aos="fade-right"
+                                                data-aos-offset="200"
+                        data-aos-duration="500">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/1.png" alt="sertifikat" className={'w-full'} />
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -25,7 +31,10 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4"
+                        data-aos="zoom-in-up"
+                                                data-aos-offset="200"
+                        data-aos-duration="500">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/6.png" alt="sertifikat" className={'w-full'} />
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -40,7 +49,10 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4"
+                        data-aos="zoom-in-up"
+                                                data-aos-offset="200"
+                        data-aos-duration="500">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/3.png" alt="sertifikat" className={'w-full'} />
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -55,7 +67,10 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4"
+                        data-aos="fade-left"
+                                                data-aos-offset="200"
+                        data-aos-duration="500">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/4.png" alt="sertifikat" className={'w-full'} />
                                 <div className="py-8 px-6 dark:bg-slate-800">
@@ -70,7 +85,10 @@ export default function Certificate() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4">
+                        <div className="w-full px-4 lg:w-1/2 xl:w-1/4"
+                        data-aos="fade-right"
+                                                data-aos-offset="200"
+                        data-aos-duration="500">
                             <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
                                 <img src="/img/sertificate/7.png" alt="sertifikat" className={'w-full'} />
                                 <div className="py-8 px-6 dark:bg-slate-800">

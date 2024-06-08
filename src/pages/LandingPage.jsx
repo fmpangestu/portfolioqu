@@ -1,9 +1,32 @@
+import { useState } from "react";
+import { IoMdCloseCircle } from "react-icons/io";
+
 export default function LandingPage() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+    };
+
+    const handleDownload = (language) => {
+        const url = language === 'en' ? '/resume_en.pdf' : '/resume_id.pdf';
+        window.open(url, '_blank');
+        closeModal();
+    };
     return (
         <section className={'pt-24 lg:pt-48 pb-12 dark:bg-dark'} id={'home'}>
             <div className="container">
                 <div className="flex flex-wrap">
-                    <div className="w-full self-center px-4 lg:w-1/2">
+                    <div className="w-full self-center px-4 lg:w-1/2" 
+                    data-aos="fade-right"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500"
+                    >
                         <h1 className={'text-base font-semibold text-primary md:text-xl '}>Hai Apa Kabar 👋 saya <span
                             className={'block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white'}>Farhan Maulana Pangestu</span>
                         </h1>
@@ -15,13 +38,18 @@ export default function LandingPage() {
                         <a href="#contact"
                            className={'text-base font-semibold text-white py-3 px-8 bg-primary hover:opacity-75 rounded-full transition duration-300 ease-in-out'}>Hubungi
                             Saya</a>
-                        <a href="/resume.pdf" target={'_blank'} rel="noreferrer"
+                        <button onClick={openModal}
                            className={'text-base font-semibold text-dark ml-4 py-3 px-8 border dark:text-white border-dark dark:border-white rounded-full lg:hidden'}>
                             Resume
-                        </a>
+                        </button>
 
                     </div>
-                    <div className={'w-full self-end px-4 lg:w-1/2'}>
+                    <div className={'w-full self-end px-4 lg:w-1/2'} 
+                    data-aos="fade-left"
+                    data-aos-anchor="#example-anchor"
+                    data-aos-offset="500"
+                    data-aos-duration="500"
+                    >
                         <div className={'relative mt-10 lg:mt-0 lg:right-0'}>
                             <img src="/img/11.png" alt="" className={'relative max-w-full mx-auto brightness-110 object-cover z-10'}/>
                             <span className={'absolute -bottom-5 left-1/2 -translate-x-1/2 lg:scale-110 '}>
@@ -36,6 +64,22 @@ export default function LandingPage() {
                     </div>
                 </div>
             </div>
+            {isModalOpen && (
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
+                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg">
+                        <div className="flex justify-center items-center gap-3">
+                            <h2 className="text-lg font-bold mb-4 dark:text-white">Pilih Bahasa Resume</h2>
+                            <button onClick={closeModal} className="mb-3 text-red-500">
+                                <IoMdCloseCircle size={20}/>
+                            </button>
+                        </div>
+                        <div className="flex justify-between gap-3">
+                            <button onClick={() => handleDownload('en')} className="px-4 py-2 bg-primary text-white rounded">English</button>
+                            <button onClick={() => handleDownload('id')} className="px-4 py-2 bg-primary text-white rounded">Indonesia</button>
+                        </div>
+                    </div>
+                </div>
+            )}
         </section>
     )
 }
