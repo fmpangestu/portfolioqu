@@ -10,7 +10,7 @@ import Totop from "../components/Totop.jsx";
 
 export default function ContentPage() {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <Header/>
             <LandingPage/>
             <AboutPage/>
@@ -20,6 +20,6 @@ export default function ContentPage() {
             <Contacts/>
             <Footer/>
             <Totop/>
-        </>
+        </div>
     )
 }

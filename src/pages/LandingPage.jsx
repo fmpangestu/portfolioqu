@@ -24,8 +24,7 @@ export default function LandingPage() {
                     <div className="w-full self-center px-4 lg:w-1/2"
                         data-aos="fade-right"
                         data-aos-anchor="#example-anchor"
-                        data-aos-offset="500"
-                        data-aos-duration="500"
+
                     >
                         <h1 className={'text-base font-semibold text-primary md:text-xl '}>Hai Apa Kabar 👋 saya <span
                             className={'block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white'}>Farhan Maulana Pangestu</span>
@@ -49,8 +48,7 @@ export default function LandingPage() {
                     <div className={'w-full self-end px-4 lg:w-1/2'}
                         data-aos="fade-left"
                         data-aos-anchor="#example-anchor"
-                        data-aos-offset="500"
-                        data-aos-duration="500"
+
                     >
                         <div className={'relative mt-10 lg:mt-0 lg:right-0'}>
                             <img src="/img/11.png" alt="" className={'relative max-w-full mx-auto brightness-110 object-cover z-10'} />
