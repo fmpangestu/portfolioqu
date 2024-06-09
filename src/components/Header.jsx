@@ -125,7 +125,7 @@ export default function Header() {
                         <div className="flex justify-center items-center gap-3">
                             <h2 className="text-lg font-bold mb-4 dark:text-white">Pilih Bahasa Resume</h2>
                             <button onClick={closeModal} className="mb-3 text-red-500">
-                                <IoMdCloseCircle size={20}/>
+                                <IoMdCloseCircle size={29}/>
                             </button>
                         </div>
                         <div className="flex justify-between gap-3">
