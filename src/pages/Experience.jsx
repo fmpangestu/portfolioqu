@@ -78,13 +78,75 @@ export default function Experience() {
                     <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:dark:bg-[#CCCCCC] before:bg-primary before:absolute before:rounded-full before:left-[58px]"
                         data-aos="zoom-out-right">
                         <h3 className="absolute left-0 text-lg dark:text-[#CCCCCC] text-white font-semibold">Skill</h3>
-                        <div className="grid grid-cols-3 lg:flex lg:flex-wrap justify-center items-center">
-                            <a href="https://www.w3schools.com/html/default.asp" target={'_blank'}
-                                className={'max-w-[60px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                        <div className="hidden lg:flex lg:flex-wrap justify-center items-center">
+                            <a target={'_blank'}
+                                className={''}
                                 rel="noreferrer">
-                                <img src="/img/experience/html.png" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=react,tailwind,express,javascript,php,laravel,nodejs,mongodb,php,mysql,html,css,github" alt="html skill" />
                             </a>
-                            <a href="https://www.w3schools.com/Css/" target={'_blank'}
+                        </div>
+                        <div className="grid grid-cols-3 lg:hidden lg:flex-wrap justify-center items-center">
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=react" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=express" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=javascript" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=nodejs" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=php" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=laravel" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=tailwind" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=mongodb" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=html" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=css" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=mysql" alt="html skill" />
+                            </a>
+                            <a href="#" target={'_blank'}
+                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                                rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=github" alt="html skill" />
+                            </a>
+                            {/* <a href="https://www.w3schools.com/Css/" target={'_blank'}
                                 className={'max-w-[60px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                 rel="noreferrer">
                                 <img src="/img/experience/css-3.png" alt="css skill" />
@@ -108,7 +170,7 @@ export default function Experience() {
                                 className={'max-w-[60px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                 rel="noreferrer">
                                 <img src="/img/experience/tailwind.png" alt="tailwind skill" />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className='hidden lg:block  mt-10 py-5 px-48'
