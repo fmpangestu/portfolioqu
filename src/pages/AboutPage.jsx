@@ -9,14 +9,14 @@ export default function AboutPage() {
                         <h1 className={'font-bold uppercase text-primary dark:text-[#e5e5e5] text-lg mb-3'}>Tentang Saya</h1>
                         <h2 className={'font-bold text-dark text-3xl mb-5 max-w-md dark:text-white'}>Semua Hal itu Menarik, Tergantung
                             diri Kita</h2>
-                        <p className={'font-medium text-base text-secondary  lg:text-lg'}>Semangat Kawan dan percayalah
+                        <p className={'font-medium text-base text-secondary dark:text-[#333333]  lg:text-lg'}>Semangat Kawan dan percayalah
                             dengan proses itu sendiri</p>
                     </div>
 
                     <div className="w-full px-4 mb-10 lg:w-1/2"
                     data-aos="fade-right">
                         <h3 className={'font-bold text-dark text-2xl mb-3 lg:text-3xl lg:pt-10 dark:text-white'}>Mari Berkawan</h3>
-                        <p className={'font-medium text-base text-secondary  mb-6 lg:text-lg'}>Follow Saya untuk Menambah
+                        <p className={'font-medium text-base text-secondary dark:text-[#333333]  mb-6 lg:text-lg'}>Follow Saya untuk Menambah
                             relasi dan juga bisa untuk saling sharing <span
                                 className={'text-dark font-semibold'}>Ilmu</span></p>
                         <div className="flex">
