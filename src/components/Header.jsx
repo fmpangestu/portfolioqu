@@ -84,8 +84,8 @@ export default function Header() {
             <div className="container my-[-8px]">
                 <div className="flex justify-between items-center relative">
                     <div className="px-4">
-                        <a href="/" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="text-primary font-bold text-2xl block py-6">
-                            farhn<span className="text-secondary dark:text-white">Dev</span>
+                        <a href="/" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="text-primary dark:text-[#CCCCCC] font-bold text-2xl block py-6">
+                            farhn<span className="text-secondary dark:text-[#333333]">Dev</span>
                         </a>
                     </div>
                     <div className="flex items-center px-4">
@@ -94,14 +94,14 @@ export default function Header() {
                             <span className="hamburger-line transition duration-300 ease-in-out"></span>
                             <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
                         </button>
-                        <nav id="nav-menu" className={`${isOpen ? '' : 'hidden'} absolute py-4 top-full max-w-[250px] -right-5 bg-white shadow-lg rounded-lg w-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-slate-800 lg:dark:bg-transparent`} onClick={toggleMenu}>
+                        <nav id="nav-menu" className={`${isOpen ? '' : 'hidden'} absolute py-4 top-full max-w-[250px] -right-5 bg-white shadow-lg rounded-lg w-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark dark:shadow-dark lg:dark:bg-transparent`} onClick={toggleMenu}>
                             <ul className="block lg:flex">
-                                <li className="group"><a href="#home" className="navbar-list group-hover:text-primary dark:text-white">Beranda</a></li>
-                                <li className="group"><a href="#about" className="navbar-list group-hover:text-primary dark:text-white">Tentang Saya</a></li>
-                                <li className="group"><a href="#portfolio" className="navbar-list group-hover:text-primary dark:text-white">Portfolio</a></li>
-                                <li className="group"><a href="#experience" className="navbar-list group-hover:text-primary dark:text-white">Experience</a></li>
-                                <li className="group"><a href="#certificate" className="navbar-list group-hover:text-primary dark:text-white">Certificate</a></li>
-                                <li className="group"><a href="#contact" className="navbar-list group-hover:text-primary dark:text-white">Contact</a></li>
+                                <li className="group"><a href="#home" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Beranda</a></li>
+                                <li className="group"><a href="#about" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Tentang Saya</a></li>
+                                <li className="group"><a href="#portfolio" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Portfolio</a></li>
+                                <li className="group"><a href="#experience" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Experience</a></li>
+                                <li className="group"><a href="#certificate" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Certificate</a></li>
+                                <li className="group"><a href="#contact" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Contact</a></li>
                                 <li className="mt-3 lg:mt-0 flex pl-8 items-center">
                                     <input type="checkbox" id="dark-toggle" className="hidden" checked={isDark} onChange={handleDarkMode} />
                                     <label htmlFor="dark-toggle">

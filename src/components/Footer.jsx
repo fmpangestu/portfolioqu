@@ -19,13 +19,13 @@ export default function Footer() {
                         <h3 className={'font-semibold text-white text-xl mb-5'}>Project Category</h3>
                         <ul className="text-slate-300">
                             <li className="mb-2">
-                                <a href="" className="inline-block text-base hover:text-primary">Nusantara</a>
+                                <a href="" className="inline-block text-base hover:text-[#333333]">Nusantara</a>
                             </li>
                             <li className="mb-2">
-                                <a href="" className="inline-block text-base hover:text-primary">Logic React </a>
+                                <a href="" className="inline-block text-base hover:text-[#333333]">Logic React </a>
                             </li>
                             <li className="mb-2">
-                                <a href="" className="inline-block text-base hover:text-primary">React Learn</a>
+                                <a href="" className="inline-block text-base hover:text-[#333333]">React Learn</a>
                             </li>
                         </ul>
                     </div>
@@ -36,24 +36,24 @@ export default function Footer() {
                         <h3 className={'font-semibold text-white text-xl mb-5'}>Tautan in Project</h3>
                         <ul className="text-slate-300">
                             <li className="mb-2">
-                                <a href="#" className="inline-block text-base hover:text-primary">Beranda</a>
+                                <a href="#" className="inline-block text-base hover:text-[#333333]">Beranda</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#about" className="inline-block text-base hover:text-primary">Tentang Saya </a>
+                                <a href="#about" className="inline-block text-base hover:text-[#333333]">Tentang Saya </a>
                             </li>
                             <li className="mb-2">
-                                <a href="#portfolio" className="inline-block text-base hover:text-primary">Portfolio</a>
+                                <a href="#portfolio" className="inline-block text-base hover:text-[#333333]">Portfolio</a>
                             </li>
                             <li className="mb-2">
                                 <a href="#experience"
-                                    className="inline-block text-base hover:text-primary">Pengalaman</a>
+                                    className="inline-block text-base hover:text-[#333333]">Pengalaman</a>
                             </li>
                             <li className="mb-2">
                                 <a href="#certificate"
-                                    className="inline-block text-base hover:text-primary">Sertifikat</a>
+                                    className="inline-block text-base hover:text-[#333333]">Sertifikat</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#contact" className="inline-block text-base hover:text-primary">Kontak</a>
+                                <a href="#contact" className="inline-block text-base hover:text-[#333333]">Kontak</a>
                             </li>
                         </ul>
                     </div>
@@ -62,7 +62,7 @@ export default function Footer() {
                     <div className="flex items-center justify-center mb-5 ">
                         {/*github*/}
                         <a href="https://github.com/farhnDev"
-                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white '}
+                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-[#333333] hover:text-white '}
                             target={"_blank"} rel="noreferrer">
                             <svg className={'fill-current'} role="img" width={'25'} height={'25'}
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +73,7 @@ export default function Footer() {
                         </a>
                         {/*instagram*/}
                         <a href="https://www.instagram.com/farhanbaeee/?next=%2F"
-                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white '}
+                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-[#333333] hover:text-white '}
                             target={"_blank"} rel="noreferrer">
                             <svg role="img" className={'fill-current'} width={'25'} height={'25'}
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -84,7 +84,7 @@ export default function Footer() {
                         </a>
                         {/*linkedin*/}
                         <a href={'https://www.linkedin.com/in/farhanmaulanapangestu/'}
-                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white '}
+                            className={'h-9 w-9 mr-3 rounded-full flex  justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-[#333333] hover:text-white '}
                             target={'_blank'} rel={'noreferrer'}>
                             <svg role="img" width={'25'} className={'fill-current'} height={'25'}
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -95,11 +95,13 @@ export default function Footer() {
                         </a>
                     </div>
                     <p className={'font-medium text-secondary text-xs text-center '}
-                    ><a href="#" target={'_blank'} className={'text-primary'}>Farhan
-                        Maulana Pangestu</a>, yang dibuat menggunakan <a
+                    ><a href="#" target={'_blank'} className={'text-[#CCCCCC]'}>Farhan
+                        Maulana Pangestu &copy; 2024</a>
+                        {/* , yang dibuat menggunakan <a
                             href="https://id.react.dev/" target={'_blank'} className={'text-cyan-700'}
                             rel="noreferrer">reactJs</a>,<a href="https://tailwindcss.com/" target={'_blank'}
-                                className={'text-cyan-300'} rel="noreferrer">TailwindCss</a></p>
+                                className={'text-cyan-300'} rel="noreferrer">TailwindCss</a> */}
+                    </p>
                 </div>
             </div>
         </section>

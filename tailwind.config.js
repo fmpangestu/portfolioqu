@@ -12,9 +12,9 @@ export default {
         },
         extend: {
             colors: {
-                primary: '#14b8a6',
+                primary: '#222222',
                 secondary: '#64748b',
-                dark: '#0f172a'
+                dark: '#222222'
             },
             gridTemplateColumns: {
                 'auto-1fr': 'auto 1fr',

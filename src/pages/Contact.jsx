@@ -52,23 +52,22 @@ export default function Contacts() {
     };
 
     return (
-        <section className={'pt-36 pb-32 dark:bg-slate-800'} id={'contact'}>
+        <section className={'pt-36 pb-32 dark:bg-[#1A1A1A]'} id={'contact'}>
             <div className="container">
                 <div className="w-full px-4">
                     <div className="mx-auto text-center mb-16" data-aos="zoom-in-down">
-                        <h4 className={'text-lg text-primary font-semibold mb-2 uppercase'}>Kontak</h4>
-                        <h2 className="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-white">Hubungi Saya</h2>
-                        <p className="text-md font-medium text-secondary md:text-lg dark:text-slate-400">Hubungi saya, apabila ada yang ingin disampaikan 😊</p>
+                        <h4 className={'text-lg text-primary dark:text-[#CCCCCC] font-semibold mb-2 uppercase'}>Kontak</h4>
+                        <p className="text-md font-medium text-secondary md:text-lg dark:text-[#333333]">Hubungi saya, apabila ada yang ingin disampaikan 😊</p>
                     </div>
                     <form onSubmit={handleSubmit}>
                         <div className="w-full lg:w-2/3 mx-auto">
                             <div className="w-full px-4 mb-8" data-aos="fade-right">
-                                <label htmlFor="from_name" className={'text-base text-primary font-semibold'}>Nama</label>
+                                <label htmlFor="from_name" className={'text-base text-primary font-semibold dark:text-[#CCCCCC]'}>Nama</label>
                                 <input
                                     type="text"
                                     id={'from_name'}
                                     name="from_name"
-                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-slate-700 dark:text-white dark:border-none'}
+                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-[#CCCCCC] dark:text-dark dark:border-none'}
                                     placeholder={'Masukkan Nama Anda...'}
                                     value={formData.from_name}
                                     onChange={handleChange}
@@ -76,12 +75,12 @@ export default function Contacts() {
                                 />
                             </div>
                             {/* <div className="w-full px-4 mb-8" data-aos="fade-right">
-                                <label htmlFor="reply_to" className={'text-base text-primary font-semibold'}>Email</label>
+                                <label htmlFor="reply_to" className={'text-base text-primary font-semibold dark:text-[#CCCCCC]'}>Email</label>
                                 <input
                                     type="email"  // Use email type
                                     id={'reply_to'}
                                     name="reply_to"
-                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-slate-700 dark:text-white dark:border-none'}
+                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-[#CCCCCC] dark:text-dark dark:border-none'}
                                     placeholder={'Masukkan Email Anda...'}
                                     value={formData.reply_to}
                                     onChange={handleChange}
@@ -89,12 +88,12 @@ export default function Contacts() {
                                 />
                             </div> */}
                             <div className="w-full px-4 mb-8" data-aos="fade-right">
-                                <label htmlFor="subject" className={'text-base text-primary font-semibold'}>Subjek</label>
+                                <label htmlFor="subject" className={'text-base text-primary font-semibold dark:text-[#CCCCCC]'}>Subjek</label>
                                 <input
                                     type="text"
                                     id={'subject'}
                                     name="subject"
-                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-slate-700 dark:text-white dark:border-none'}
+                                    className={'w-full p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-[#CCCCCC] dark:text-dark dark:border-none'}
                                     placeholder={'Masukkan Subjek...'}
                                     value={formData.subject}
                                     onChange={handleChange}
@@ -102,11 +101,11 @@ export default function Contacts() {
                                 />
                             </div>                            
                             <div className="w-full px-4 mb-8" data-aos="fade-right">
-                                <label htmlFor="message" className={'text-base text-primary font-semibold'}>Pesan</label>
+                                <label htmlFor="message" className={'text-base text-primary font-semibold dark:text-[#CCCCCC]'}>Pesan</label>
                                 <textarea
                                     id={'message'}
                                     name="message"
-                                    className={'w-full h-40 p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-slate-700 dark:text-white dark:border-none resize-none'}
+                                    className={'w-full h-40 p-3 border rounded-md bg-slate-200 focus:outline-none focus:ring-primary focus:border-1 focus:border-primary placeholder-italic dark:bg-[#CCCCCC] dark:text-dark dark:border-none resize-none'}
                                     placeholder={'Tulis Pesan Anda...'}
                                     value={formData.message}
                                     onChange={handleChange}
@@ -114,7 +113,7 @@ export default function Contacts() {
                                 />
                             </div>
                             <div className="w-full px-4 mb-8" data-aos="fade-left">
-                                <button type="submit" className={'w-full text-base font-semibold px-8 py-2 text-slate-100 bg-primary rounded-full hover:opacity-85 hover:shadow-lg transition duration-500'}>Kirim</button>
+                                <button type="submit" className={'w-full text-base font-semibold px-8 py-2 text-slate-100 dark:text-dark bg-primary dark:bg-[#CCCCCC] rounded-full hover:opacity-85 hover:shadow-lg transition duration-500'}>Kirim</button>
                             </div>
                         </div>
                     </form>
