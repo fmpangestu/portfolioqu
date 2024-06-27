@@ -79,73 +79,87 @@ export default function Experience() {
                         data-aos="zoom-out-right">
                         <h3 className="absolute left-0 text-lg dark:text-[#CCCCCC] text-white font-semibold">Skill</h3>
                         <div className="hidden lg:flex lg:flex-wrap justify-center items-center">
-                            <a target={'_blank'}
-                                className={''}
-                                rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=react,tailwind,express,javascript,php,laravel,nodejs,mongodb,php,mysql,html,css,github" alt="html skill" />
+                        <a className={''} rel="noreferrer">
+                                <img src="https://skillicons.dev/icons?i=react,tailwind,express,javascript,php,laravel,nodejs,mongodb,php,mysql,html,css,github" alt="Skills" useMap="#skillmap" />
                             </a>
+                            <map name="skillmap">
+                                <area shape="rect" coords="0,0,64,64" alt="React" href="https://reactjs.org/docs/getting-started.html" target='_blank' />
+                                <area shape="rect" coords="64,0,128,64" alt="Tailwind" href="https://tailwindcss.com/docs" target='_blank' />
+                                <area shape="rect" coords="128,0,192,64" alt="Express" href="https://expressjs.com/en/starter/installing.html" target='_blank' />
+                                <area shape="rect" coords="192,0,256,64" alt="JavaScript" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target='_blank' />
+                                <area shape="rect" coords="256,0,320,64" alt="PHP" href="https://www.php.net/docs.php" target='_blank' />
+                                <area shape="rect" coords="320,0,384,64" alt="Laravel" href="https://laravel.com/docs" target='_blank' />
+                                <area shape="rect" coords="384,0,448,64" alt="Node.js" href="https://nodejs.org/en/docs/" target='_blank' />
+                                <area shape="rect" coords="448,0,512,64" alt="MongoDB" href="https://docs.mongodb.com/" target='_blank' />
+                                <area shape="rect" coords="512,0,576,64" alt="MySQL" href="https://dev.mysql.com/doc/" target='_blank' />
+                                <area shape="rect" coords="576,0,640,64" alt="HTML" href="https://developer.mozilla.org/en-US/docs/Web/HTML" target='_blank' />
+                                <area shape="rect" coords="640,0,704,64" alt="CSS" href="https://developer.mozilla.org/en-US/docs/Web/CSS" target='_blank' />
+                                <area shape="rect" coords="704,0,768,64" alt="GitHub" href="https://github.com" target='_blank' />
+                            </map>
+
                         </div>
                         <div className="grid grid-cols-3 lg:hidden lg:flex-wrap justify-center items-center">
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://reactjs.org/docs/getting-started.html" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=react" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=react" alt="React skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://expressjs.com/en/starter/installing.html" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=express" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=express" alt="Express skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=javascript" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://nodejs.org/en/docs/" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=nodejs" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://www.php.net/docs.php" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=php" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=php" alt="PHP skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://laravel.com/docs" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=laravel" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=laravel" alt="Laravel skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://tailwindcss.com/docs" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=tailwind" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind CSS skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://docs.mongodb.com/" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=mongodb" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=mongodb" alt="MongoDB skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=html" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=html" alt="HTML skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=css" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=css" alt="CSS skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://dev.mysql.com/doc/" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=mysql" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL skill" />
                             </a>
-                            <a href="#" target={'_blank'}
-                                className={' mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
+                            <a href="https://github.com" target="_blank"
+                                className="mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
                                 rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=github" alt="html skill" />
+                                <img src="https://skillicons.dev/icons?i=github" alt="GitHub skill" />
                             </a>
+
                             {/* <a href="https://www.w3schools.com/Css/" target={'_blank'}
                                 className={'max-w-[60px] mx-4 py-4 lg:grayscale lg:opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8'}
                                 rel="noreferrer">
