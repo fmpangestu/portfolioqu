@@ -50,7 +50,7 @@ export default function LandingPage() {
                         data-aos-anchor="#example-anchor"
 
                     >
-                        <div className={'relative mt-10 lg:mt-0 lg:right-0'}>
+                        <div className={'relative mt-20 lg:mt-0 lg:right-0'}>
                             <img src="/img/34.png" alt="" className={'relative max-w-full mx-auto brightness-110 object-cover z-10'} />
                             <span className={'absolute -bottom-5 left-1/2 -translate-x-1/2 lg:scale-110 '}>
                                 <svg width={'400'} height={'400'} viewBox="0 0 200 200" className="fill-[#222222] dark:fill-[#CCCCCC]"
