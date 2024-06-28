@@ -80,7 +80,7 @@ export default function Experience() {
                         <h3 className="absolute left-0 text-lg dark:text-[#CCCCCC] text-white font-semibold">Skill</h3>
                         <div className="hidden lg:flex lg:flex-wrap justify-center items-center">
                         <a className={''} rel="noreferrer">
-                                <img src="https://skillicons.dev/icons?i=react,tailwind,express,javascript,php,laravel,nodejs,mongodb,php,mysql,html,css,github" alt="Skills" useMap="#skillmap" />
+                                <img src="https://skillicons.dev/icons?i=react,tailwind,express,javascript,laravel,nodejs,mongodb,php,mysql,html,css,github" alt="Skills" useMap="#skillmap" />
                             </a>
                             <map name="skillmap">
                                 <area shape="rect" coords="0,0,64,64" alt="React" href="https://reactjs.org/docs/getting-started.html" target='_blank' />
