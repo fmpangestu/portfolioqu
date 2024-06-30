@@ -30,7 +30,7 @@ export default function LandingPage() {
                             className={'block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white'}>Farhan Maulana Pangestu</span>
                         </h1>
                         <h2 className={'font-medium text-lg mb-5 text-secondary lg:text-2xl dark:text-[#333333]'}>Junior Web <span
-                            className={'text-dark dark:text-white'}>Developer</span></h2>
+                            className={'text-dark dark:text-white font-bold'}>Developer</span></h2>
                         <p className={'font-medium text-secondary mb-10 leading-relaxed dark:text-[#333333]'}>Terkadang merasa lelah itu
                             wajar, tetapi ingat kata menyerah itu <span
                                 className={'text-dark font-bold dark:text-white'}>Kurang BELAJAR!</span></p>
@@ -50,7 +50,7 @@ export default function LandingPage() {
                         data-aos-anchor="#example-anchor"
 
                     >
-                        <div className={'relative mt-20 lg:mt-0 lg:right-0'}>
+                        <div className={'relative mt-20 lg:mt-0 lg:right-0   '}>
                             <img src="/img/34.png" alt="" className={'relative max-w-full mx-auto brightness-110 object-cover z-10'} />
                             <span className={'absolute -bottom-5 left-1/2 -translate-x-1/2 lg:scale-110 '}>
                                 <svg width={'400'} height={'400'} viewBox="0 0 200 200" className="fill-[#222222] dark:fill-[#CCCCCC]"
@@ -66,7 +66,7 @@ export default function LandingPage() {
             </div>
             {isModalOpen && (
                 <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
-                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg">
+                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg" data-aos="zoom-in">
                         <div className="flex justify-center items-center gap-3">
                             <h2 className="text-lg font-bold mb-4 dark:text-white">Pilih Bahasa Resume</h2>
                             <button onClick={closeModal} className="mb-3 text-red-500">

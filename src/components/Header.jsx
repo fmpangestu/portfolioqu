@@ -89,7 +89,7 @@ export default function Header() {
                         </a>
                     </div>
                     <div className="flex items-center px-4">
-                        <button id="hamburger" onClick={toggleMenu} type="button" className={`block absolute right-4 lg:hidden ${isOpen ? 'hamburger-active' : ''}`}>
+                        <button id="hamburger" onClick={toggleMenu} type="button" className={`block absolute right-4 lg:hidden w-[40px] h-[40px] ${isOpen ? 'hamburger-active' : ''}`}>
                             <span className="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
                             <span className="hamburger-line transition duration-300 ease-in-out"></span>
                             <span className="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
@@ -120,8 +120,8 @@ export default function Header() {
             </div>
 
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
-                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg">
+                <div className="fixed inset-0 h-[100vh] flex items-center justify-center bg-black bg-opacity-50 z-20">
+                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg" data-aos="zoom-in">
                         <div className="flex justify-center items-center gap-3">
                             <h2 className="text-lg font-bold mb-4 dark:text-white">Pilih Bahasa Resume</h2>
                             <button onClick={closeModal} className="mb-3 text-red-500">

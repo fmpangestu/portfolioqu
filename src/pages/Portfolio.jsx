@@ -90,9 +90,9 @@ export default function Portfolio() {
                     <div className="w-full p-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                         {projects.map((project, index) => (
                             <div key={index} className="mb-12 p-4 md:w-1/3" data-aos={project.aos}>
-                                <div className="card bg-white dark:bg-white shadow-xl rounded-lg overflow-hidden lg:hover:scale-110 transition-all duration-150">
+                                <div className="card bg-white dark:bg-white shadow-xl rounded-lg overflow-hidden ">
                                     <figure>
-                                        <img src={project.imgSrc} alt={project.imgAlt} className="w-full" />
+                                        <img src={project.imgSrc} alt={project.imgAlt} className="w-full transform transition-transform duration-300 hover:scale-110" />
                                     </figure>
                                     <div className="card-body p-3">
                                         <h2 className="card-title font-bold">{project.title}</h2>
@@ -126,8 +126,8 @@ export default function Portfolio() {
                 </div>
             </div>
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20">
-                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg">
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-20" >
+                    <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg" data-aos="zoom-in">
                         <div className="flex justify-center items-center gap-3 relative">
                             <h2 className="text-lg font-bold mb-4 dark:text-white">Segera Hadir</h2>
                             <button onClick={closeModal} className="mb-14 right-[-20px] absolute text-red-500">

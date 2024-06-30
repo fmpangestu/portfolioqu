@@ -13,7 +13,7 @@ export default function Experience() {
                             dan Skills </h2>
                         <p className="text-md font-medium  md:text-lg dark:text-[#CCCCCC] text-white">Sebuah pengalaman pelatihan yang
                             pernah saya ikuti, dan Skill yang saya kuasai sampai saat ini menjadi <span
-                                className={'text-[#1A1A1A] dark:text-[#333333] dark:font-bold'}>Junior Web Developer</span>
+                                className={'text-[#1A1A1A] font-bold dark:text-[#333333] dark:font-bold'}>Junior Web Developer</span>
                         </p>
                     </div>
 

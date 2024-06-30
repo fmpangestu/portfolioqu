@@ -123,7 +123,7 @@ export default function Contacts() {
             {/* Modal untuk alert */}
             {showModal && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center overflow-x-hidden overflow-y-auto outline-none focus:outline-none">
-                    <div className="relative w-auto max-w-md mx-auto my-6">
+                    <div className="relative w-auto max-w-md mx-auto my-6" data-aos="zoom-in">
                         {/* Content modal */}
                         <div className="relative bg-white border-2 border-primary rounded-lg shadow-lg">
                             <div className="p-6">
