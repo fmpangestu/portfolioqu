@@ -90,7 +90,7 @@ export default function Portfolio() {
                     <div className="w-full p-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                         {projects.map((project, index) => (
                             <div key={index} className="mb-12 p-4 md:w-1/3" data-aos={project.aos}>
-                                <div className="card bg-white dark:bg-white shadow-xl rounded-lg overflow-hidden">
+                                <div className="card bg-white dark:bg-white shadow-xl rounded-lg overflow-hidden lg:hover:scale-110 transition-all duration-150">
                                     <figure>
                                         <img src={project.imgSrc} alt={project.imgAlt} className="w-full" />
                                     </figure>
@@ -99,22 +99,22 @@ export default function Portfolio() {
                                         <p className="font-base border-b-2 italic text-sm pb-1">{project.description}</p>
                                         <div className="card-actions flex justify-between items-center pt-2 gap-2">
                                             <a href={project.github} target="_blank" rel="noreferrer">
-                                                <button className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-white bg-primary hover:bg-secondary transition duration-300">
+                                                <button className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-primary bg-white shadow hover:bg-primary hover:text-white transition duration-300">
                                                     Github <IconBrandGithub stroke={2} />
                                                 </button>
                                             </a>
                                             {project.link ? (
                                                 <a href={project.link} target="_blank" rel="noreferrer">
-                                                    <button className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-white bg-primary hover:bg-secondary transition duration-300">
-                                                        Visit <IconTrendingUp3 stroke={2} />
+                                                    <button className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-white bg-primary shadow hover:bg-white hover:text-primary transition duration-300">
+                                                        Demo <IconTrendingUp3 stroke={2} />
                                                     </button>
                                                 </a>
                                             ) : (
                                                 <button
                                                     onClick={openModal}
-                                                    className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-white bg-primary hover:bg-secondary transition duration-300"
+                                                    className="flex gap-2 btn px-1 py-1 lg:px-3 lg:py-1 rounded-lg text-white bg-primary shadow hover:bg-white hover:text-primary transition duration-300"
                                                 >
-                                                    Visit <IconTrendingUp3 stroke={2} />
+                                                    Demo <IconTrendingUp3 stroke={2} />
                                                 </button>
                                             )}
                                         </div>
