@@ -7,10 +7,12 @@ import Sertificate from "./Sertificate.jsx";
 import Contacts from "./Contact.jsx";
 import Footer from "../components/Footer.jsx";
 import Totop from "../components/Totop.jsx";
+import GoogleTranslateButton from "../components/GoogleTranslate.jsx";
 
 export default function ContentPage() {
     return (
         <div className="overflow-x-hidden">
+            {/* <GoogleTranslateButton /> */}
             <Header/>
             <LandingPage/>
             <AboutPage/>

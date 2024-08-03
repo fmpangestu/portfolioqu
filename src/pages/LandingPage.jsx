@@ -50,8 +50,9 @@ export default function LandingPage() {
                         data-aos-anchor="#example-anchor"
 
                     >
-                        <div className={'relative mt-20 lg:mt-0 lg:right-0   '}>
-                            <img src="/img/34.png" alt="" className={'relative max-w-full mx-auto brightness-110 object-cover z-10'} />
+                        {/* kalau untuk foto sekarang, mt pada div ini di lg nya kasih minus, dan yang hp design itu di tambahin yang awalnya 20 menjadi kosongin dulu  */}
+                        <div className={'relative lg:mt-[-140px] lg:right-0   '}>
+                            <img src="/img/56.png" alt="" className={'relative max-w-[400px] mx-auto brightness-110 object-cover z-10 right-8 sm:right-0'} />
                             <span className={'absolute -bottom-5 left-1/2 -translate-x-1/2 lg:scale-110 '}>
                                 <svg width={'400'} height={'400'} viewBox="0 0 200 200" className="fill-[#222222] dark:fill-[#CCCCCC]"
                                     xmlns="http://www.w3.org/2000/svg">

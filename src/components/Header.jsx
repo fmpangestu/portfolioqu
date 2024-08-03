@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { IoMdCloseCircle } from "react-icons/io";
+import GoogleTranslateButton from './GoogleTranslate';
 
 export default function Header() {
+
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
     const [lastScroppTop, setLastScroppTop] = useState(0);
@@ -34,8 +36,8 @@ export default function Header() {
         setIsModalOpen(false);
     };
 
-    const handleDownload = (language) => {
-        const url = language === 'en' ? '/resume_en.pdf' : '/resume_id.pdf';
+    const handleDownload = (lang) => {
+        const url = lang === 'en' ? '/resume_en.pdf' : '/resume_id.pdf';
         window.open(url, '_blank');
         closeModal();
     };
@@ -98,10 +100,10 @@ export default function Header() {
                             <ul className="block lg:flex">
                                 <li className="group"><a href="#home" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Beranda</a></li>
                                 <li className="group"><a href="#about" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Tentang Saya</a></li>
-                                <li className="group"><a href="#portfolio" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Portfolio</a></li>
-                                <li className="group"><a href="#experience" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Experience</a></li>
-                                <li className="group"><a href="#certificate" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Certificate</a></li>
-                                <li className="group"><a href="#contact" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Contact</a></li>
+                                <li className="group"><a href="#portfolio" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">portfolio</a></li>
+                                <li className="group"><a href="#experience" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Pengalaman</a></li>
+                                <li className="group"><a href="#certificate" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Sertifikat</a></li>
+                                <li className="group"><a href="#contact" className="navbar-list group-hover:text-[#CCCCCC] dark:text-white">Kontak</a></li>
                                 <li className="mt-3 lg:mt-0 flex pl-8 items-center">
                                     <input type="checkbox" id="dark-toggle" className="hidden" checked={isDark} onChange={handleDarkMode} />
                                     <label htmlFor="dark-toggle">
@@ -110,8 +112,11 @@ export default function Header() {
                                         </div>
                                     </label>
                                 </li>
+                                {/* <li className="mt-3 lg:mt-0 flex pl-8 items-center">
+                                    <GoogleTranslateButton />
+                                </li> */}
                                 <li className="lg:mt-0 items-center flex">
-                                    <button onClick={openModal} className="px-4 py-1 ml-4 rounded-full border border-dark dark:border-white dark:text-white font-base text-sm hidden lg:block">Resume</button>
+                                    <button onClick={openModal} className="px-4 py-1 ml-4 rounded-full border border-dark dark:border-white dark:text-white font-base text-sm hidden lg:block">resume</button>
                                 </li>
                             </ul>
                         </nav>
@@ -123,14 +128,14 @@ export default function Header() {
                 <div className="fixed inset-0 h-[100vh] flex items-center justify-center bg-black bg-opacity-50 z-20">
                     <div className="bg-white dark:bg-dark p-6 rounded-lg shadow-lg" data-aos="zoom-in">
                         <div className="flex justify-center items-center gap-3">
-                            <h2 className="text-lg font-bold mb-4 dark:text-white">Pilih Bahasa Resume</h2>
+                            <h2 className="text-lg font-bold mb-4 dark:text-white">selectLanguage</h2>
                             <button onClick={closeModal} className="mb-3 text-red-500">
                                 <IoMdCloseCircle size={29}/>
                             </button>
                         </div>
                         <div className="flex justify-between gap-3">
-                            <button onClick={() => handleDownload('en')} className="px-4 py-2 bg-primary text-white rounded">English</button>
-                            <button onClick={() => handleDownload('id')} className="px-4 py-2 bg-primary text-white rounded">Indonesia</button>
+                            <button onClick={() => handleDownload('en')} className="px-4 py-2 bg-primary text-white rounded">english</button>
+                            <button onClick={() => handleDownload('id')} className="px-4 py-2 bg-primary text-white rounded">indonesia</button>
                         </div>
                     </div>
                 </div>
