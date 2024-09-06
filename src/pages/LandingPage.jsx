@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { IoMdCloseCircle } from "react-icons/io";
+import Typical from 'react-typical';
 
 export default function LandingPage() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,8 +30,13 @@ export default function LandingPage() {
                         <h1 className={'text-base font-semibold text-primary dark:text-[#e5e5e5] md:text-xl '}>Hai Apa Kabar 👋 saya <span
                             className={'block font-bold text-dark text-4xl mt-1 lg:text-5xl dark:text-white'}>Farhan Maulana Pangestu</span>
                         </h1>
-                        <h2 className={'font-medium text-lg mb-5 text-secondary lg:text-2xl dark:text-[#333333]'}>Junior Web <span
-                            className={'text-dark dark:text-white font-bold'}>Developer</span></h2>
+                        <h2 className={'font-medium text-lg mb-5 text-secondary lg:text-2xl dark:text-[#414040]'}>
+                            <Typical
+                                steps={['Junior Web Developer', 1500, 'JavaScript Developer', 1500, 'Laravel Developer', 1500]}
+                                loop={Infinity}
+                                wrapper="span"
+                            />
+                        </h2>
                         <p className={'font-medium text-secondary mb-10 leading-relaxed dark:text-[#333333]'}>Terkadang merasa lelah itu
                             wajar, tetapi ingat kata menyerah itu <span
                                 className={'text-dark font-bold dark:text-white'}>Kurang BELAJAR!</span></p>
@@ -52,8 +58,8 @@ export default function LandingPage() {
                     >
                         {/* kalau untuk foto sekarang, mt pada div ini di lg nya kasih minus, dan yang hp design itu di tambahin yang awalnya 20 menjadi kosongin dulu  */}
                         <div className={'relative lg:mt-[-140px] lg:right-0   '}>
-                            <img src="/img/56.png" alt="" className={'relative max-w-[400px] mx-auto brightness-110 object-cover z-10 right-8 sm:right-0'} />
-                            <span className={'absolute -bottom-5 left-1/2 -translate-x-1/2 lg:scale-110 '}>
+                            <img src="/img/35.png" alt="" className={'relative max-w-[400px] mx-auto brightness-110 object-cover z-10 right-0 sm:right-0 top-16 lg:top-10'} />
+                            <span className={'absolute -bottom-20 left-1/2 -translate-x-1/2 lg:scale-110 '}>
                                 <svg width={'400'} height={'400'} viewBox="0 0 200 200" className="fill-[#222222] dark:fill-[#CCCCCC]"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
