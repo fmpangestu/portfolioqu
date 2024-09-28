@@ -40,7 +40,7 @@ export default function LandingPage() {
                                 loop
                                 ref={typedRef} // Set ref for Typed
                             /> */}
-                            <MyComponent />
+                            <MyComponent style={{backgroundColor:'transparent'}} />
                         </h2>
                         <p className={'font-medium text-secondary mb-10 leading-relaxed dark:text-[#333333]'}>
                             Terkadang merasa lelah itu wajar, tetapi ingat kata menyerah itu <span className={'text-dark font-bold dark:text-white'}>Kurang BELAJAR!</span>
