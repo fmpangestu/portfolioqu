@@ -10,7 +10,7 @@ export default function Experience() {
                         data-aos="zoom-out">
                         <h4 className={'text-lg dark:text-[#CCCCCC] text-white font-semibold mb-2 uppercase'}>Pengalaman</h4>
                         <h2 className="font-bold text-slate-50 text-3xl mb-4 sm:text-4xl lg:text-5xl dark:text-[#CCCCCC]">Pengalaman
-                            dan Skills </h2>
+                            dan Skill </h2>
                         <p className="text-md font-medium  md:text-lg dark:text-[#CCCCCC] text-white">Sebuah pengalaman pelatihan yang
                             pernah saya ikuti, dan Skill yang saya kuasai sampai saat ini menjadi <span
                                 className={'text-[#1A1A1A] font-bold dark:text-[#333333] dark:font-bold'}>Junior Web Developer</span>
