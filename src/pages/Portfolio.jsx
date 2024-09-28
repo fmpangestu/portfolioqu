@@ -77,6 +77,15 @@ export default function Portfolio() {
             description: "Sebuah project yang di kembangkan dengan laravel dan juga dengan MySQL. sebagai project team",
             aos: 'zoom-out-right'
         },
+        {
+            imgSrc: "/img/portfolio/8.png",
+            imgAlt: "Sistem Informasi Desa Sitemu",
+            title: "Sistem Informasi Desa Sitemu",
+            link: 'https://sitemubersatu.com',
+            github: "https://github.com/farhnDev/desa-sitemu.git",
+            description: "Sebuah project yang di kembangkan dengan UI/UX yang menarik, dan juga pengembangan react js, dan beberapa fitur yang di utamakan",
+            aos: 'zoom-out-right'
+        },
     ];
     return (
         <section id="portfolio" className={'pt-36 pb-32 bg-slate-100 dark:bg-[#CCCCCC]'}>
