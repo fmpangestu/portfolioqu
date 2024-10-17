@@ -3,6 +3,7 @@ import { IoMdCloseCircle } from "react-icons/io";
 import MyComponent from "../components/TypingText";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import ParticlesComponent from "../components/ParticlesComponent";
 
 export default function LandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -51,10 +52,10 @@ export default function LandingPage() {
       },
       particles: {
         color: {
-          value: "#FFFFFF",
+          value: "#243642",
         },
         links: {
-          color: "#FFFFFF",
+          color: "#243642",
           distance: 150,
           enable: true,
           opacity: 0.3,
@@ -111,12 +112,7 @@ export default function LandingPage() {
         className={"relative pt-24 lg:pt-48 pb-12 dark:bg-[#1A1A1A]"}
         id={"home"}
       >
-        <Particles
-          id="tsparticles"
-          particlesLoaded={particlesLoaded}
-          options={options}
-          className="h-full w-full"
-        />
+        <ParticlesComponent />
         <div className="container relative z-10">
           {/* Rest of your existing JSX */}
           <div className="flex flex-wrap">
